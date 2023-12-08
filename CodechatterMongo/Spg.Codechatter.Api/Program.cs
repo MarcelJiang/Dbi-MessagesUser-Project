@@ -1,11 +1,7 @@
 using System;
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using MongoDB.Driver;
 
 namespace Spg.Codechatter.API
 {
@@ -13,31 +9,14 @@ namespace Spg.Codechatter.API
     {
         public static void Main(string[] args)
         {
-            var host = CreateHostBuilder(args).Build();
-
-            using (var scope = host.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                try
-                {
-                    var mongoDbService = services.GetRequiredService<MongoDbService>();
-                    // Beispiel: mongoDbService.Initialize();
-                }
-                catch (Exception ex)
-                {
-                    var logger = services.GetRequiredService<ILogger<Program>>();
-                    logger.LogError(ex, "Fehler bei der Initialisierung der Dienste.");
-                }
-            }
-
-            host.Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Program>(); // Achte darauf, dass hier deine Klasse steht
+                    webBuilder.UseStartup<Startup>();
                 })
                 .ConfigureAppConfiguration((hostingContext, config) =>
                 {
@@ -48,8 +27,8 @@ namespace Spg.Codechatter.API
                 })
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.Configure<Settings>(hostContext.Configuration.GetSection("MongoDB"));
-                    services.AddSingleton<MongoDbService>();
+                    // services.Configure<Settings>(hostContext.Configuration.GetSection("MongoDB"));
+                    // services.AddSingleton<MongoDbService>();
                 });
     }
 }

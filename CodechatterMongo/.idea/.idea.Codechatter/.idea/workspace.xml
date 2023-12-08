@@ -8,7 +8,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15778032-0e08-4978-a2fa-5d930e6b576c" name="Changes" comment="" />
+    <list default="true" id="15778032-0e08-4978-a2fa-5d930e6b576c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Codechatter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Codechatter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.API.Test/obj/Debug/net7.0/Spg.Codechatter.API.Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.API.Test/obj/Debug/net7.0/Spg.Codechatter.API.Test.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.API.Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.API.Test/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/AppSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/Codechatter.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/Spg.Codechatter.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/Spg.Codechatter.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/ref/Spg.Codechatter.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/ref/Spg.Codechatter.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/refint/Spg.Codechatter.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/Debug/net7.0/refint/Spg.Codechatter.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application.Test/obj/Debug/net7.0/Spg.Codechatter.Application.Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application.Test/obj/Debug/net7.0/Spg.Codechatter.Application.Test.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application.Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application.Test/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/bin/Debug/net7.0/Spg.Codechatter.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/bin/Debug/net7.0/Spg.Codechatter.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/bin/Debug/net7.0/Spg.Codechatter.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/bin/Debug/net7.0/Spg.Codechatter.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/Spg.Codechatter.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/Spg.Codechatter.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/Spg.Codechatter.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/Spg.Codechatter.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/Spg.Codechatter.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/Spg.Codechatter.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/ref/Spg.Codechatter.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/ref/Spg.Codechatter.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/refint/Spg.Codechatter.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/Debug/net7.0/refint/Spg.Codechatter.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Domain.Test/obj/Debug/net7.0/Spg.Codechatter.Domain.Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Domain.Test/obj/Debug/net7.0/Spg.Codechatter.Domain.Test.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Domain.Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Domain.Test/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Infrastructure.Test/obj/Debug/net7.0/Spg.Codechatter.Infrastructure.Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Infrastructure.Test/obj/Debug/net7.0/Spg.Codechatter.Infrastructure.Test.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Infrastructure.Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Infrastructure.Test/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Repository.Test/obj/Debug/net7.0/Spg.Codechatter.Repository.Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Repository.Test/obj/Debug/net7.0/Spg.Codechatter.Repository.Test.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Repository.Test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Repository.Test/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spg.Codechatter.Repository/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Spg.Codechatter.Repository/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +128,7 @@
       <workItem from="1701932478406" duration="1406000" />
       <workItem from="1701933935982" duration="1133000" />
       <workItem from="1702027578907" duration="1875000" />
-      <workItem from="1702029626399" duration="5126000" />
+      <workItem from="1702029626399" duration="7986000" />
     </task>
     <servers />
   </component>
