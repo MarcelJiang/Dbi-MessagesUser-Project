@@ -1,0 +1,28 @@
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.deps.json
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.runtimeconfig.json
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.pdb
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.csproj.AssemblyReference.cache
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.AssemblyInfoInputs.cache
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.AssemblyInfo.cs
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.csproj.CoreCompileInputs.cache
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\refint\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.pdb
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.genruntimeconfig.cache
+D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Domain\obj\Debug\net7.0\ref\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.deps.json
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.runtimeconfig.json
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.pdb
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.csproj.AssemblyReference.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.AssemblyInfoInputs.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.AssemblyInfo.cs
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.csproj.CoreCompileInputs.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\refint\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.pdb
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.genruntimeconfig.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo\Spg.Codechatter.Domain\obj\Debug\net7.0\ref\Spg.Codechatter.Domain.dll
