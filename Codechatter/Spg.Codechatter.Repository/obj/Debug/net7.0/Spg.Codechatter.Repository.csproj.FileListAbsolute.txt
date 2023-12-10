@@ -17,3 +17,23 @@ D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\
 D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.pdb
 D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.genruntimeconfig.cache
 D:\Schule\5BHIF\DBI\SachenAendern\sj2223-4bhif-pos-rest-api-project-codechatter\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\ref\Spg.Codechatter.Repository.dll
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.deps.json
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.runtimeconfig.json
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.dll
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.pdb
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Domain.dll
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Infrastructure.dll
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Infrastructure.pdb
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Domain.pdb
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.csproj.AssemblyReference.cache
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.AssemblyInfoInputs.cache
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.AssemblyInfo.cs
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.sourcelink.json
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.csproj.CopyComplete
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.dll
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\refint\Spg.Codechatter.Repository.dll
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.pdb
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.genruntimeconfig.cache
+C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\ref\Spg.Codechatter.Repository.dll
