@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Spg.Codechatter.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b76a3f53e8c0175dcc19afe46af72d9da88b03be")]
 [assembly: System.Reflection.AssemblyProductAttribute("Spg.Codechatter.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Spg.Codechatter.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
