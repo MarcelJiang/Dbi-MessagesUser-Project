@@ -13,8 +13,9 @@ namespace Spg.Codechatter.Infrastructure
 
         public CodechatterMongoContext(IMongoClient client, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("mongodb+srv://Ray:3425LL44aaajKll014592lskfhj@cluster0.q8dofgk.mongodb.net/Codechatter");
-            _database = client.GetDatabase(configuration["MongoDb:CodeChatter"]);
+            // Verwenden Sie die fest codierte Verbindungszeichenfolge
+            //var connectionString = configuration.GetConnectionString("mongodb+srv://Ray:yalayala@cluster0.q8dofgk.mongodb.net/?retryWrites=true&w=majority");
+            _database = client.GetDatabase("Codechatter");
         }
 
         public IMongoCollection<Chatroom> Chatrooms => _database.GetCollection<Chatroom>("Chatrooms");

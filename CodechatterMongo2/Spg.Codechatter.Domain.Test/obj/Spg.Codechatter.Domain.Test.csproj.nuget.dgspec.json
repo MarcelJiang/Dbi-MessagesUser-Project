@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj": {}
+    "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj": {}
   },
   "projects": {
-    "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj",
         "projectName": "Spg.Codechatter.Domain.Test",
-        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain.Test\\Spg.Codechatter.Domain.Test.csproj",
         "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain.Test\\obj\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
               }
             }
           }
@@ -129,14 +129,14 @@
         }
       }
     },
-    "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
         "projectName": "Spg.Codechatter.Domain",
-        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
         "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
-        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\obj\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config"

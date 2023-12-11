@@ -3094,11 +3094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
+      "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
       "projectName": "Spg.Codechatter.Repository",
-      "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
+      "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
       "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
-      "outputPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Repository\\obj\\",
+      "outputPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3113,8 +3113,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
-              "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
+            "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
+              "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
             }
           }
         }

@@ -36,3 +36,22 @@ D:\Schule\5BHIF\DBI\Nochmalkomplettneu\Codechatter\Spg.Codechatter.Repository\ob
 D:\Schule\5BHIF\DBI\Nochmalkomplettneu\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.pdb
 D:\Schule\5BHIF\DBI\Nochmalkomplettneu\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.genruntimeconfig.cache
 D:\Schule\5BHIF\DBI\Nochmalkomplettneu\Codechatter\Spg.Codechatter.Repository\obj\Debug\net7.0\ref\Spg.Codechatter.Repository.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.deps.json
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.runtimeconfig.json
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Repository.pdb
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Domain.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Infrastructure.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Infrastructure.pdb
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\bin\Debug\net7.0\Spg.Codechatter.Domain.pdb
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.csproj.AssemblyReference.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.AssemblyInfoInputs.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.AssemblyInfo.cs
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.csproj.CoreCompileInputs.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.csproj.CopyComplete
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\refint\Spg.Codechatter.Repository.dll
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.pdb
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\Spg.Codechatter.Repository.genruntimeconfig.cache
+D:\Schule\5BHIF\DBI\Das echte Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Repository\obj\Debug\net7.0\ref\Spg.Codechatter.Repository.dll

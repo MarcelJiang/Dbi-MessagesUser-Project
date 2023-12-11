@@ -3123,11 +3123,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
+      "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
       "projectName": "Spg.Codechatter.Application",
-      "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
+      "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
       "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
-      "outputPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Application\\obj\\",
+      "outputPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3142,11 +3142,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-              "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+            "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+              "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
             },
-            "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
-              "projectPath": "D:\\Schule\\5BHIF\\DBI\\Nochmalkomplettneu\\Codechatter\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
+            "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
+              "projectPath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
             }
           }
         }

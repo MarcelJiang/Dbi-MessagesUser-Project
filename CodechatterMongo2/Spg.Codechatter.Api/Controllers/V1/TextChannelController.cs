@@ -3,12 +3,14 @@ using Spg.Codechatter.Application.V1.Interfaces.TextChannelService;
 using Spg.Codechatter.Domain.V1.Dtos.TextChannel;
 using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Spg.Codechatter.API.Controllers.V1
 {
     [ApiController]
     [Route("Api/v{version:apiVersion}/[controller]s")]
     [ApiVersion("1.0", Deprecated = true)]
+    [AllowAnonymous]
     public class TextChannelController : ControllerBase
     {
         private readonly IReadTextChannelService _readTextChannelService;
