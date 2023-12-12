@@ -55,3 +55,18 @@ C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo
 C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.pdb
 C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.genruntimeconfig.cache
 C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\ref\Spg.Codechatter.Domain.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.deps.json
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.runtimeconfig.json
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\bin\Debug\net7.0\Spg.Codechatter.Domain.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.csproj.AssemblyReference.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.AssemblyInfoInputs.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.AssemblyInfo.cs
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.sourcelink.json
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\refint\Spg.Codechatter.Domain.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\Spg.Codechatter.Domain.genruntimeconfig.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Domain\obj\Debug\net7.0\ref\Spg.Codechatter.Domain.dll

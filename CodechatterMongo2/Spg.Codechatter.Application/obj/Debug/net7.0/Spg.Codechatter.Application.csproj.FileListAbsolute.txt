@@ -83,3 +83,25 @@ C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo
 C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.pdb
 C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.genruntimeconfig.cache
 C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\ref\Spg.Codechatter.Application.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Application.deps.json
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Application.runtimeconfig.json
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Application.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Application.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Domain.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Infrastructure.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Repository.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Domain.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Repository.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\bin\Debug\net7.0\Spg.Codechatter.Infrastructure.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.csproj.AssemblyReference.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.AssemblyInfoInputs.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.AssemblyInfo.cs
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.csproj.CoreCompileInputs.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.sourcelink.json
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.csproj.CopyComplete
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\refint\Spg.Codechatter.Application.dll
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.pdb
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\Spg.Codechatter.Application.genruntimeconfig.cache
+C:\Users\zotro\OneDrive\Dokumente\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application\obj\Debug\net7.0\ref\Spg.Codechatter.Application.dll
