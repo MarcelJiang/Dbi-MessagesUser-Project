@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "swr": "^2.2.4",
-    "tailwind": "^4.0.0"
-  }
-}
