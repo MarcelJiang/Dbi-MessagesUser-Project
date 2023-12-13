@@ -38,6 +38,13 @@ builder.Services.AddScoped<CodechatterMongoContext>(_ =>
     return new CodechatterMongoContext(client, configurationIntern);
 });
 
+// Register the seeder
+builder.Services.AddTransient<CodechatterContextSeeder>(_ =>
+{
+    var context = _.GetRequiredService<CodechatterMongoContext>();
+    return new CodechatterContextSeeder(context);
+});
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // V1
@@ -112,9 +119,15 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "allowedOrigins", policy =>
     {
-        policy.WithOrigins("https://localhost:54614");
-        policy.WithHeaders("ACCESS-CONTROL-ALLOW-ORIGIN", "CONTENT-TYPE");
-    });
+       
+          
+                policy.AllowAnyOrigin(); // Allow any origin
+                policy.AllowAnyHeader();
+                policy.AllowAnyMethod();
+                
+            
+        });
+   
 });
 
 builder.Services.AddApiVersioning(o =>
@@ -151,5 +164,12 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseCors("allowedOrigins");
 app.MapControllers();
+
+// Seed the database
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<CodechatterContextSeeder>();
+    seeder.Seed(chatroomCount: 10, userCount: 50, textChannelCount: 20, messageCount: 100);
+}
 
 app.Run();

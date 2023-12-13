@@ -57,4 +57,16 @@ public class MessageService : IReadMessageService, IModifyMessageService
     {
         _modifyMessageRepository.DeleteMessage(id);
     }
+
+    public IEnumerable<UserWithMessagesDto> GetAllUsersWithMessages()
+    {
+        return _readMessageRepository.GetAllUsersWithMessages().Select(user => new UserWithMessagesDto
+            {
+                UserId = user.UserId,
+                UserName = user.UserName,
+                Messages = user.Messages
+            })
+            .ToList();
+    }
+
 }

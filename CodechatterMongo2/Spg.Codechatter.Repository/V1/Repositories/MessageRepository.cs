@@ -5,6 +5,8 @@ using Spg.Codechatter.Repository.V1.Interfaces.MessageRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 
 namespace Spg.Codechatter.Repository.V1.Repositories
@@ -55,7 +57,9 @@ namespace Spg.Codechatter.Repository.V1.Repositories
             var result = _db.Messages.FindOneAndDelete(m => m.Guid == message.Id);
             if (result != null)
             {
-                _db.Messages.InsertOne(new Message(message.Content, message.UserId, message.ChatroomId, message.TextChannelId) { Guid = message.Id });
+                _db.Messages.InsertOne(
+                    new Message(message.Content, message.UserId, message.ChatroomId, message.TextChannelId)
+                        { Guid = message.Id });
             }
             else
             {
@@ -70,6 +74,42 @@ namespace Spg.Codechatter.Repository.V1.Repositories
             {
                 throw new KeyNotFoundException("Message was not found. ID: " + id);
             }
+        }
+
+        public IEnumerable<UserWithMessagesDto> GetAllUsersWithMessages()
+        {
+            // Fetch all users
+            List<UserWithMessagesDto> usersWithMessages = new List<UserWithMessagesDto>();
+            List<User> allUsers = _db.Users.Find(_ => true).ToList();
+
+            foreach (User user in allUsers)
+            {
+                // Fetch all messages for each user
+                List<ReadMessageDto> userMessages = _db.Messages
+                    .Find(m => m.UserId == user.Guid)
+                    .ToList()
+                    .Select(message => new ReadMessageDto(
+                        message.Guid,
+                        message.Content,
+                        message.DateAndTime,
+                        message.TextChannelId,
+                        message.UserId,
+                        message.ChatroomId))
+                    .ToList();
+
+                // Create a DTO representing the user with their messages
+                UserWithMessagesDto userWithMessages = new UserWithMessagesDto
+                {
+                    UserId = user.Guid,
+                    UserName = user.Username, // Assuming there's a UserName property in your User class
+                    Messages = userMessages
+                };
+
+                // Add the user DTO to the list
+                usersWithMessages.Add(userWithMessages);
+            }
+
+            return usersWithMessages;
         }
     }
 }

@@ -42,6 +42,22 @@ namespace Spg.Codechatter.API.Controllers.V1
             }
         }
 
+        [HttpGet("all-with-messages")]
+        public IActionResult GetWithMessages()
+        {
+            try
+            {
+                var usersWithMessages = _readMessageService.GetAllUsersWithMessages();
+                return Ok(usersWithMessages);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception and return an error response
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+        
+        
         [HttpGet("{guid}")]
         public IActionResult GetById(Guid guid)
         {
@@ -110,5 +126,7 @@ namespace Spg.Codechatter.API.Controllers.V1
                 return BadRequest();
             }
         }
+        
+        
     }
 }

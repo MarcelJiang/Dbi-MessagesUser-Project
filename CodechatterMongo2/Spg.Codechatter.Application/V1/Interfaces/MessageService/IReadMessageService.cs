@@ -10,4 +10,7 @@ public interface IReadMessageService
     IEnumerable<ReadMessageDto> GetMessagesByMemberId(Guid userId, Guid chatroomId);
 
     IEnumerable<ReadMessageDto> GetMessagesByTextChannelId(Guid textChannelId);
+
+    IEnumerable<UserWithMessagesDto> GetAllUsersWithMessages();
+
 }
