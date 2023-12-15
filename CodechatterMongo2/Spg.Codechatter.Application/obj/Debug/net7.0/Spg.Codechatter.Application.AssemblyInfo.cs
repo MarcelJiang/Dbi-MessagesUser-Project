@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Spg.Codechatter.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+901113eea68c7875d350fb6db46dd5ba446f431d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe6888173b3b26e2acce06dd01ccdbce26297847")]
 [assembly: System.Reflection.AssemblyProductAttribute("Spg.Codechatter.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Spg.Codechatter.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

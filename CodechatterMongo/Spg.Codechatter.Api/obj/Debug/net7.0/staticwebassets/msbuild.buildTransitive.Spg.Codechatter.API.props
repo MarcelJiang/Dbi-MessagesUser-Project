@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Spg.Codechatter.API.props" />
-</Project>

@@ -77,6 +77,25 @@ namespace Spg.Codechatter.API.Controllers.V1
             }
         }
 
+
+
+        [HttpGet("UserMessagesSortByDate")]
+        public IActionResult GetUserMessageSortByDate()
+        {
+            try
+            {
+                var usersWithMessages = _readMessageService.UserMessagesFilterByDate();
+                return Ok(usersWithMessages);
+            }
+            catch (Exception ex)
+            {
+                
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+            
+        }
+        
+        
         [HttpPost]
         public IActionResult Add([FromBody] CreateMessageDto message)
         {

@@ -1,4 +1,5 @@
-﻿using Spg.Codechatter.Application.V1.Interfaces.MessageService;
+﻿using System.Collections;
+using Spg.Codechatter.Application.V1.Interfaces.MessageService;
 using Spg.Codechatter.Domain.V1.Dtos.Message;
 using Spg.Codechatter.Domain.V1.Model;
 using Spg.Codechatter.Repository.V1.Interfaces.MessageRepository;
@@ -11,7 +12,8 @@ public class MessageService : IReadMessageService, IModifyMessageService
     private readonly IReadMessageRepository _readMessageRepository;
     private readonly IModifyMessageRepository _modifyMessageRepository;
 
-    public MessageService(IReadMessageRepository readMessageRepository, IModifyMessageRepository modifyMessageRepository)
+    public MessageService(IReadMessageRepository readMessageRepository,
+        IModifyMessageRepository modifyMessageRepository)
     {
         _readMessageRepository = readMessageRepository;
         _modifyMessageRepository = modifyMessageRepository;
@@ -19,24 +21,28 @@ public class MessageService : IReadMessageService, IModifyMessageService
 
     public IEnumerable<ReadMessageDto> GetAllMessages()
     {
-        return _readMessageRepository.GetAllMessages().Select(m => new ReadMessageDto(m.Guid, m.Content, m.DateAndTime, m.TextChannelId, m.UserId, m.ChatroomId));
+        return _readMessageRepository.GetAllMessages().Select(m =>
+            new ReadMessageDto(m.Guid, m.Content, m.DateAndTime, m.TextChannelId, m.UserId, m.ChatroomId));
     }
 
     public ReadMessageDto GetMessageById(Guid id)
     {
         Message message = _readMessageRepository.GetMessageById(id);
 
-        return new ReadMessageDto(message.Guid, message.Content, message.DateAndTime, message.TextChannelId, message.UserId, message.ChatroomId);
+        return new ReadMessageDto(message.Guid, message.Content, message.DateAndTime, message.TextChannelId,
+            message.UserId, message.ChatroomId);
     }
 
     public IEnumerable<ReadMessageDto> GetMessagesByMemberId(Guid userId, Guid chatroomId)
     {
-        return _readMessageRepository.GetMessagesByMemberId(userId, chatroomId).Select(m => new ReadMessageDto(m.Guid, m.Content, m.DateAndTime, m.TextChannelId, m.UserId, m.ChatroomId));
+        return _readMessageRepository.GetMessagesByMemberId(userId, chatroomId).Select(m =>
+            new ReadMessageDto(m.Guid, m.Content, m.DateAndTime, m.TextChannelId, m.UserId, m.ChatroomId));
     }
 
     public IEnumerable<ReadMessageDto> GetMessagesByTextChannelId(Guid textChannelId)
     {
-        return _readMessageRepository.GetMessagesByTextChannelId(textChannelId).Select(m => new ReadMessageDto(m.Guid, m.Content, m.DateAndTime, m.TextChannelId, m.UserId, m.ChatroomId));
+        return _readMessageRepository.GetMessagesByTextChannelId(textChannelId).Select(m =>
+            new ReadMessageDto(m.Guid, m.Content, m.DateAndTime, m.TextChannelId, m.UserId, m.ChatroomId));
     }
 
     public ReadMessageDto AddMessage(CreateMessageDto message)
@@ -68,5 +74,18 @@ public class MessageService : IReadMessageService, IModifyMessageService
             })
             .ToList();
     }
+
+    public IEnumerable<UserWithMessagesDto> UserMessagesFilterByDate()
+    {
+        return _readMessageRepository.UserMessagesFilterByDate().Select(user => new UserWithMessagesDto
+            {
+                UserId = user.UserId,
+                UserName = user.UserName,
+                Messages = user.Messages
+            })
+            .ToList();
+    }
+
+
 
 }

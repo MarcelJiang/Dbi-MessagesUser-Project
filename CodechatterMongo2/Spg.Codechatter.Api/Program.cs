@@ -168,8 +168,9 @@ app.MapControllers();
 // Seed the database
 using (var scope = app.Services.CreateScope())
 {
+    
     var seeder = scope.ServiceProvider.GetRequiredService<CodechatterContextSeeder>();
-    seeder.Seed(chatroomCount: 10, userCount: 50, textChannelCount: 20, messageCount: 100);
+    seeder.Seed(chatroomCount: 10, userCount: 100, textChannelCount: 10, messageCount: 100);
 }
 
 app.Run();

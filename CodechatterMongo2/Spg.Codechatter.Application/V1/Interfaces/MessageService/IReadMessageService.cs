@@ -12,5 +12,8 @@ public interface IReadMessageService
     IEnumerable<ReadMessageDto> GetMessagesByTextChannelId(Guid textChannelId);
 
     IEnumerable<UserWithMessagesDto> GetAllUsersWithMessages();
+    
+    IEnumerable<UserWithMessagesDto> UserMessagesFilterByDate();
+
 
 }

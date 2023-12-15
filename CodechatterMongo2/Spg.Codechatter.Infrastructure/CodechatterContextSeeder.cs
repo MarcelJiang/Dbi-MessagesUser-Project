@@ -4,11 +4,14 @@ using MongoDB.Driver;
 using Spg.Codechatter.Domain.V1.Model;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Spg.Codechatter.Infrastructure;
 
 public class CodechatterContextSeeder
 {
+    
+    
     private readonly CodechatterMongoContext _mongoContext;
 
     public CodechatterContextSeeder(CodechatterMongoContext mongoContext)
@@ -18,6 +21,7 @@ public class CodechatterContextSeeder
 
     public void Seed(int chatroomCount, int userCount, int textChannelCount, int messageCount)
     {
+        
         var chatroomFaker = new Bogus.Faker<Chatroom>("de")
             .CustomInstantiator(f => new Chatroom(f.Lorem.Word()));
 
