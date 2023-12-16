@@ -21,16 +21,16 @@ using Spg.Codechatter.Repository.V1.Interfaces.UserRepository;
 using Spg.Codechatter.Repository.V1.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-string connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("The Connection string could not be found");
-// Add services to the container.
+var configuration = builder.Configuration;
 
 builder.Services.AddDbContext<CodechatterContext>(ServiceLifetime.Singleton);
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-var configuration = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json")
-    .Build();
+// Register the seeder
+builder.Services.AddTransient<CodechatterContextSeeder>(_ =>
+{
+    var context = _.GetRequiredService<CodechatterContext>();
+    return new CodechatterContextSeeder(context);
+});
 
 builder.Services.AddSingleton(configuration);
 
@@ -186,11 +186,9 @@ DbContextOptions options = new DbContextOptionsBuilder()
 CodechatterContext db = new CodechatterContext(options);
 db.Database.EnsureDeleted();
 db.Database.EnsureCreated();
-db.Seed();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -203,11 +201,20 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors("allowedOrigins");
-app.UseAuthentication();
-app.UseAuthorization();
-
-
-
 app.MapControllers();
+
+// Use the created scope for seeding
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider.GetRequiredService<CodechatterContextSeeder>();
+    
+    // Set the desired number of entries for seeding
+    int chatroomCount = 1;
+    int userCount = 1000;
+    int textChannelCount = 1;
+    int messageCount = 1000;
+
+    seeder.SeedAsync(chatroomCount, userCount, textChannelCount, messageCount);
+}
 
 app.Run();

@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Spg.Codechatter.Application.Test
-build_property.ProjectDir = C:\Users\Marcel Jiang\Documents\GitHub\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application.Test\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Schule\5BHIF\DBI\Projekt\Dbi-MessagesUser-Project\CodechatterMongo2\Spg.Codechatter.Application.Test\

@@ -1,140 +1,159 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Spg.Codechatter.Application.V1.Interfaces.MessageService;
 using Spg.Codechatter.Domain.V1.Dtos.Message;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
-namespace Spg.Codechatter.API.Controllers.V1;
-
-[ApiController]
-[Route("Api/v{version:apiVersion}/[controller]s")]
-[ApiVersion("1.0", Deprecated = true)]
-public class MessageController : ControllerBase
+namespace Spg.Codechatter.API.Controllers.V1
 {
-    private readonly IReadMessageService _readMessageService;
-    private readonly IModifyMessageService _modifyMessageService;
-    private readonly IConfiguration _configuration;
-
-    /// <summary>
-    /// Initializes a new instance of the <see cref="MessageController"/> class.
-    /// </summary>
-    /// <param name="readMessageService">The read message service.</param>
-    /// <param name="modifyMessageService">The modify message service.</param>
-    /// <param name="configuration">The configuration object.</param>
-    public MessageController(IReadMessageService readMessageService, IModifyMessageService modifyMessageService, IConfiguration configuration)
+    [ApiController]
+    [Route("Api/v{version:apiVersion}/[controller]s")]
+    [ApiVersion("1.0", Deprecated = true)]
+    [AllowAnonymous]
+    public class MessageController : ControllerBase
     {
-        _readMessageService = readMessageService;
-        _modifyMessageService = modifyMessageService;
-        _configuration = configuration;
-    }
+        private readonly IReadMessageService _readMessageService;
+        private readonly IModifyMessageService _modifyMessageService;
+        private readonly IConfiguration _configuration;
 
-    /// <summary>
-    /// Gets all messages.
-    /// </summary>
-    /// <returns>Returns the list of all messages.</returns>
-    [HttpGet]
-    public IActionResult GetAll()
-    {
-        try
+        public MessageController(IReadMessageService readMessageService, IModifyMessageService modifyMessageService, IConfiguration configuration)
         {
-            IEnumerable<ReadMessageDto> result = _readMessageService.GetAllMessages();
+            _readMessageService = readMessageService;
+            _modifyMessageService = modifyMessageService;
+            _configuration = configuration;
+        }
 
-            if (!result.GetEnumerator().MoveNext())
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            try
+            {
+                IEnumerable<ReadMessageDto> result = _readMessageService.GetAllMessages();
+
+                if (!result.Any())
+                    return NotFound();
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("All-User-With-Messages")]
+        public IActionResult GetWithMessages()
+        {
+            try
+            {
+                var usersWithMessages = _readMessageService.GetAllUsersWithMessages();
+                return Ok(usersWithMessages);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception and return an error response
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("{guid}")]
+        public IActionResult GetById(Guid guid)
+        {
+            try
+            {
+                ReadMessageDto result = _readMessageService.GetMessageById(guid);
+
+                return Ok(result);
+            }
+            catch (KeyNotFoundException ex)
+            {
                 return NotFound();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
+        }
 
-            return Ok(result);
-        }
-        catch (Exception ex)
+        [HttpGet("User-Messages-SortBy-Date")]
+        public IActionResult GetUserMessageSortByDate()
         {
-            return BadRequest();
+            try
+            {
+                var usersWithMessages = _readMessageService.UserMessagesFilterByDate();
+                return Ok(usersWithMessages);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
         }
-    }
 
-    /// <summary>
-    /// Gets a message by GUID.
-    /// </summary>
-    /// <param name="guid">The GUID of the message.</param>
-    /// <returns>Returns the message with the specified GUID.</returns>
-    [HttpGet("{guid}")]
-    public IActionResult GetById(Guid guid)
-    {
-        try
+        [HttpGet("Count-Messsages-Per-User")]
+        public IActionResult GetMessagesPerUserCount()
         {
-            ReadMessageDto result = _readMessageService.GetMessageById(guid);
+            try
+            {
+                var usersMessageCount = _readMessageService.MessagesCountPerUser();
+                return Ok(usersMessageCount);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
+        }
 
-            return Ok(result);
-        }
-        catch (KeyNotFoundException ex)
+        [HttpPost]
+        public IActionResult Add([FromBody] CreateMessageDto message)
         {
-            return NotFound();
+            try
+            {
+                ReadMessageDto result = _modifyMessageService.AddMessage(message);
+                return Created($"{_configuration["PublicURL"]}api/v1/messages/{result.Guid}?api-version=1", result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
         }
-        catch (Exception ex)
-        {
-            return BadRequest();
-        }
-    }
 
-    /// <summary>
-    /// Adds a new message.
-    /// </summary>
-    /// <param name="message">The message to be added.</param>
-    /// <returns>Returns the newly added message.</returns>
-    [HttpPost]
-    public IActionResult Add([FromBody] CreateMessageDto message)
-    {
-        try
+        [HttpDelete("{guid}")]
+        public IActionResult Delete(Guid guid)
         {
-            ReadMessageDto result = _modifyMessageService.AddMessage(message);
-            return Created($"{_configuration["PublicURL"]}api/v1/messages/{result.Guid}?api-version=1", result);
+            try
+            {
+                _modifyMessageService.DeleteMessage(guid);
+                return Ok();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
         }
-        catch (Exception ex)
-        {
-            return BadRequest();
-        }
-    }
 
-    /// <summary>
-    /// Deletes a message by GUID.
-    /// </summary>
-    /// <param name="guid">The GUID of the message.</param>
-    /// <returns>Returns an HTTP status code indicating the success of the operation.</returns>
-    [HttpDelete("{guid}")]
-    public IActionResult Delete(Guid guid)
-    {
-        try
+        [HttpPut]
+        public IActionResult Update([FromBody] UpdateMessageDto message)
         {
-            _modifyMessageService.DeleteMessage(guid);
-            return Ok();
-        }
-        catch (KeyNotFoundException ex)
-        {
-            return NotFound();
-        }
-        catch (Exception ex)
-        {
-            return BadRequest();
-        }
-    }
-
-    /// <summary>
-    /// Updates a message.
-    /// </summary>
-    /// <param name="message">The updated message object.</param>
-    /// <returns>Returns an HTTP status code indicating the success of the operation.</returns>
-    [HttpPut]
-    public IActionResult Update([FromBody] UpdateMessageDto message)
-    {
-        try
-        {
-            _modifyMessageService.UpdateMessage(message);
-            return Ok();
-        }
-        catch (KeyNotFoundException ex)
-        {
-            return NotFound();
-            //return Add(message);
-        }
-        catch (Exception ex)
-        {
-            return BadRequest();
+            try
+            {
+                _modifyMessageService.UpdateMessage(message);
+                return Ok();
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest();
+            }
         }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj": {}
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj",
         "projectName": "Spg.Codechatter.API.Test",
-        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj",
-        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\obj\\",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\Spg.Codechatter.API.Test.csproj",
+        "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj"
               }
             }
           }
@@ -105,24 +106,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj",
         "projectName": "Spg.Codechatter.API",
-        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj",
-        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\obj\\",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\Spg.Codechatter.API.csproj",
+        "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,17 +132,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj"
               },
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
               }
             }
           }
@@ -230,24 +232,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
         "projectName": "Spg.Codechatter.Application",
-        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
-        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\obj\\",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
+        "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -256,17 +258,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
               },
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
               }
             }
           }
@@ -344,24 +347,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
         "projectName": "Spg.Codechatter.Domain",
-        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
-        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\obj\\",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
+        "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -370,6 +373,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -451,24 +455,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
         "projectName": "Spg.Codechatter.Infrastructure",
-        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\obj\\",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -477,14 +481,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
               }
             }
           }
@@ -570,24 +575,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
+    "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
+        "projectUniqueName": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
         "projectName": "Spg.Codechatter.Repository",
-        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
-        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\obj\\",
+        "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
+        "packagesPath": "C:\\Users\\barbe\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\barbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -596,14 +601,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
+              "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
+                "projectPath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
               }
             }
           }
@@ -681,7 +687,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

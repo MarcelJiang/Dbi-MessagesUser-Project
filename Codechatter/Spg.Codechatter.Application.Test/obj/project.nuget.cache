@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P11q+9Ezfk3xOTJwVUPSycI+eu7v7prTX5kvQgk9jcqzsdu+OfXNnPejN+gGdH8tNayBMfPZOm4ThBpCSkHH1Q==",
+  "dgSpecHash": "qj9HEdXa/myB61ydv3ewxkdwKi7VJ/64MSwlXQqIJ3MrkRjLDCzxe0jdE4/ev9C/veFyZTJwJodb6SVJh7VKQw==",
   "success": true,
-  "projectFilePath": "D:\\Schule\\5BHIF\\DBI\\Das echte Projekt\\Dbi-MessagesUser-Project\\Codechatter\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj",
+  "projectFilePath": "D:\\Schule\\5BHIF\\DBI\\Projekt\\Dbi-MessagesUser-Project\\Codechatter\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barbe\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\barbe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
