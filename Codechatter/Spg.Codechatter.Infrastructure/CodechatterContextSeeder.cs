@@ -58,6 +58,8 @@ namespace Spg.Codechatter.Infrastructure
                 _context.Messages.AddRange(messages);
 
                 await _context.SaveChangesAsync();
+                
+                await Task.Delay(10000);
             }
             catch (Exception ex)
             {
