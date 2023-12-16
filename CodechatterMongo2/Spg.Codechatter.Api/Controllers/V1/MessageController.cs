@@ -42,7 +42,7 @@ namespace Spg.Codechatter.API.Controllers.V1
             }
         }
 
-        [HttpGet("all-with-messages")]
+        [HttpGet("All-User-With-Messages")]
         public IActionResult GetWithMessages()
         {
             try
@@ -79,7 +79,7 @@ namespace Spg.Codechatter.API.Controllers.V1
 
 
 
-        [HttpGet("UserMessagesSortByDate")]
+        [HttpGet("User-Messages-SortBy-Date")]
         public IActionResult GetUserMessageSortByDate()
         {
             try
@@ -93,6 +93,21 @@ namespace Spg.Codechatter.API.Controllers.V1
                 return StatusCode(500, $"Internal Server Error: {ex.Message}");
             }
             
+        }
+
+        [HttpGet("Count-Messsages-Per-User")]
+        public IActionResult GetMessagesPerUserCount()
+        {
+            try
+            {
+                var usersMessageCount = _readMessageService.MessagesCountPerUser();
+                return Ok(usersMessageCount);
+            }
+            catch (Exception ex)
+            {
+                
+                return StatusCode(500, $"Internal Server Error: {ex.Message}");
+            }
         }
         
         
@@ -145,6 +160,8 @@ namespace Spg.Codechatter.API.Controllers.V1
                 return BadRequest();
             }
         }
+        
+        
         
         
     }

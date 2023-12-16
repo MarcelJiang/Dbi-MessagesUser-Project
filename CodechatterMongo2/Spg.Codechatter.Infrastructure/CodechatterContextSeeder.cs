@@ -50,10 +50,26 @@ public class CodechatterContextSeeder
             });
 
         var messages = messageFaker.Generate(messageCount);
+        
+        Stopwatch stopwatch = new Stopwatch();
 
-        _mongoContext.Users.InsertMany(users);
-        _mongoContext.Chatrooms.InsertMany(chatrooms);
-        _mongoContext.TextChannels.InsertMany(textChannels);
-        _mongoContext.Messages.InsertMany(messages);
+        // Start the Stopwatch
+        stopwatch.Start();
+        try
+        {
+            _mongoContext.Users.InsertMany(users);
+            _mongoContext.Chatrooms.InsertMany(chatrooms);
+            _mongoContext.TextChannels.InsertMany(textChannels);
+            _mongoContext.Messages.InsertMany(messages);
+        }
+        finally
+        {
+            stopwatch.Stop();
+
+            // Log or use the elapsed time as needed
+            Console.WriteLine($"Seeding : Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+              
+        }
+        
     }
 }

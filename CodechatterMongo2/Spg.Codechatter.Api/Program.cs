@@ -165,12 +165,30 @@ app.UseHttpsRedirection();
 app.UseCors("allowedOrigins");
 app.MapControllers();
 
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<CodechatterMongoContext>();
+
+    
+    context.Chatrooms.DeleteMany(_ => true); 
+    context.Users.DeleteMany(_ => true); 
+    context.TextChannels.DeleteMany(_ => true);
+    context.Messages.DeleteMany(_ => true); 
+}
+
+
 // Seed the database
 using (var scope = app.Services.CreateScope())
 {
     
     var seeder = scope.ServiceProvider.GetRequiredService<CodechatterContextSeeder>();
-    seeder.Seed(chatroomCount: 10, userCount: 100, textChannelCount: 10, messageCount: 100);
+    seeder.Seed(chatroomCount: 1, userCount: 1000, textChannelCount: 1, messageCount: 1000);
 }
+
+
+
+
 
 app.Run();

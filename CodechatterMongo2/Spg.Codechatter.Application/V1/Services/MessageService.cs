@@ -87,5 +87,16 @@ public class MessageService : IReadMessageService, IModifyMessageService
     }
 
 
+    public IEnumerable<UserMessageCountDto> MessagesCountPerUser()
+    {
+        return _readMessageRepository.MessagesCountPerUser().Select(user => new UserMessageCountDto()
+            {
+                UserId = user.UserId,
+                UserName = user.UserName,
+                MessageCount = user.MessageCount
+            })
+            .ToList();
+       
+    }
 
 }

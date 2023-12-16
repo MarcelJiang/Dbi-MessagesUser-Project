@@ -17,7 +17,7 @@ namespace Spg.Codechatter.Domain.V1.Model
         public string Content { get; set; } = string.Empty;
 
         [BsonElement("DateAndTime")]
-        public DateTime DateAndTime { get; set; } = DateTime.Now;
+        public DateTime DateAndTime { get; set; } = DateTime.Today;
 
         [BsonElement("TextChannelId")]
         public Guid TextChannelId { get; set; }

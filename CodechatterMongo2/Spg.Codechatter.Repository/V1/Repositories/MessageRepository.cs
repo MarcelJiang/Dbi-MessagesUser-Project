@@ -25,16 +25,33 @@ namespace Spg.Codechatter.Repository.V1.Repositories
         }
 
         public Message GetMessageById(Guid id)
-        {
-            
-            var message = _db.Messages.Find(m => m.Guid == id)?.FirstOrDefault();
-
-            if (message == null)
             {
-                throw new KeyNotFoundException("Message was not found. ID: " + id);
-            }
+                Stopwatch stopwatch = new Stopwatch();
 
-            return message;
+                // Start the Stopwatch
+                stopwatch.Start();
+                try
+                {
+                    var message = _db.Messages.Find(m => m.Guid == id)?.FirstOrDefault();
+
+                    if (message == null)
+                    {
+                        throw new KeyNotFoundException("Message was not found. ID: " + id);
+                    }
+
+                    return message;
+            
+                }
+                finally
+                {
+                    stopwatch.Stop();
+
+                    // Log or use the elapsed time as needed
+                    Console.WriteLine($"Get Message by ID: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+              
+                }
+            
+            
         }
 
         public IEnumerable<Message> GetAllMessages()
@@ -53,7 +70,7 @@ namespace Spg.Codechatter.Repository.V1.Repositories
                 stopwatch.Stop();
 
                 // Log or use the elapsed time as needed
-                Console.WriteLine($"{DeleteMessage}: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+                Console.WriteLine($"Get all Messages: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
               
             }
         }
@@ -83,7 +100,7 @@ namespace Spg.Codechatter.Repository.V1.Repositories
                 stopwatch.Stop();
 
                 // Log or use the elapsed time as needed
-                Console.WriteLine($"{DeleteMessage}: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+                Console.WriteLine($"Adding Message: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
               
             }
         }
@@ -114,7 +131,7 @@ namespace Spg.Codechatter.Repository.V1.Repositories
                 stopwatch.Stop();
 
                 // Log or use the elapsed time as needed
-                Console.WriteLine($"{DeleteMessage}: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+                Console.WriteLine($"Update Message: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
               
             }
         }
@@ -138,7 +155,7 @@ namespace Spg.Codechatter.Repository.V1.Repositories
                 stopwatch.Stop();
 
                 // Log or use the elapsed time as needed
-                Console.WriteLine($"{DeleteMessage}: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+                Console.WriteLine($"Delete Message: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
             }    
             
             
@@ -190,7 +207,7 @@ namespace Spg.Codechatter.Repository.V1.Repositories
                 stopwatch.Stop();
 
                 // Log or use the elapsed time as needed
-                Console.WriteLine($"{usersWithMessages}: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+                Console.WriteLine($"Get All Users with their Messages: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
             }
             
 
@@ -243,17 +260,56 @@ namespace Spg.Codechatter.Repository.V1.Repositories
                 stopwatch.Stop();
 
                 // Log or use the elapsed time as needed
-                Console.WriteLine($"{UserMessagesFilterByDate}: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+                Console.WriteLine($"Get All Users with their Messages Sort by Date: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
             }
             
 
             return usersWithMessagesSortByDate;
         }
         
-        
-        
-       
-    
+        public IEnumerable<UserMessageCountDto> MessagesCountPerUser()
+        {
+            Stopwatch stopwatch = new Stopwatch();
+
+            // Start the Stopwatch
+            stopwatch.Start();
+
+            // Fetch all users
+            List<UserMessageCountDto> countMessages = new List<UserMessageCountDto>();
+            List<User> allUsers = _db.Users.Find(_ => true).ToList();
+
+            try
+            {
+                foreach (User user in allUsers)
+                {
+                    // Count messages within the specified date range for each user
+                    long messageCount = _db.Messages
+                        .CountDocuments(m => m.UserId == user.Guid);
+
+                    // Create a DTO representing the user with their message count
+                    UserMessageCountDto userCountMessages = new UserMessageCountDto()
+                    {
+                        UserId = user.Guid,
+                        UserName = user.Username, // Assuming there's a UserName property in your User class
+                        MessageCount = messageCount
+                    };
+
+                    // Add the user DTO to the list
+                    countMessages.Add(userCountMessages);
+                }
+            }
+            finally
+            {
+                // Stop the Stopwatch
+                stopwatch.Stop();
+
+                // Log or use the elapsed time as needed
+                Console.WriteLine($"Get All Users with their Messages Count Sort by Date: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
+            }
+
+            return countMessages;
+
+        }
     }
     
     

@@ -16,7 +16,9 @@ public interface IReadMessageRepository
     IEnumerable<UserWithMessagesDto> GetAllUsersWithMessages();
     
     IEnumerable<UserWithMessagesDto> UserMessagesFilterByDate();
-    
-    
+
+    IEnumerable<UserMessageCountDto> MessagesCountPerUser();
+
+
 
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj": {}
+    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj": {
+    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj",
         "projectName": "Spg.Codechatter.Application.Test",
-        "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj",
-        "packagesPath": "C:\\Users\\zotro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\obj\\",
+        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\Spg.Codechatter.Application.Test.csproj",
+        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zotro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,14 +32,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj"
               },
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
               },
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
               }
             }
           }
@@ -111,20 +111,20 @@
         }
       }
     },
-    "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
+    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
         "projectName": "Spg.Codechatter.Application",
-        "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
-        "packagesPath": "C:\\Users\\zotro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\obj\\",
+        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\Spg.Codechatter.Application.csproj",
+        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zotro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -139,11 +139,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
               },
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj"
               }
             }
           }
@@ -225,20 +225,20 @@
         }
       }
     },
-    "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
         "projectName": "Spg.Codechatter.Domain",
-        "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
-        "packagesPath": "C:\\Users\\zotro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj",
+        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zotro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -332,20 +332,20 @@
         }
       }
     },
-    "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
+    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
         "projectName": "Spg.Codechatter.Infrastructure",
-        "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\zotro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zotro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -360,8 +360,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Domain\\Spg.Codechatter.Domain.csproj"
               }
             }
           }
@@ -451,20 +451,20 @@
         }
       }
     },
-    "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
+    "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
         "projectName": "Spg.Codechatter.Repository",
-        "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
-        "packagesPath": "C:\\Users\\zotro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\obj\\",
+        "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\Spg.Codechatter.Repository.csproj",
+        "packagesPath": "C:\\Users\\Marcel Jiang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zotro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcel Jiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -479,8 +479,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\zotro\\OneDrive\\Dokumente\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
+              "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Marcel Jiang\\Documents\\GitHub\\Dbi-MessagesUser-Project\\CodechatterMongo2\\Spg.Codechatter.Infrastructure\\Spg.Codechatter.Infrastructure.csproj"
               }
             }
           }
