@@ -26,8 +26,6 @@ namespace Spg.Codechatter.Repository.V1.Repositories
 
             try
             {
-                // Assuming there is a navigation property between Message and User
-                //return _db.Messages.Include(m => m.UserId).First(m => m.Guid == id);
                 return _db.Messages.First(m => m.Guid == id);
             }
             catch (InvalidOperationException ex)
@@ -46,7 +44,6 @@ namespace Spg.Codechatter.Repository.V1.Repositories
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            // Assuming there is a navigation property between Message and User
             var messages = _db.Messages.ToList();
 
             stopwatch.Stop();
@@ -60,7 +57,6 @@ namespace Spg.Codechatter.Repository.V1.Repositories
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            // Assuming there is a navigation property between Message and User
             var messages = _db.Messages
                 .Where(e => e.UserId == userId && e.ChatroomId == chatroomId)
                 .Include(m => m.UserId)
@@ -77,7 +73,6 @@ namespace Spg.Codechatter.Repository.V1.Repositories
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            // Assuming there is a navigation property between Message and User
             var messages = _db.Messages
                 .Where(e => e.TextChannelId == textChannelId)
                 .Include(m => m.UserId)

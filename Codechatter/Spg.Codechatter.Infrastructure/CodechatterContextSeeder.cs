@@ -70,7 +70,6 @@ namespace Spg.Codechatter.Infrastructure
             {
                 stopwatch.Stop();
 
-                // Use your preferred logging mechanism here
                 Console.WriteLine($"Seeding: Elapsed Time for Data Operation: {stopwatch.ElapsedMilliseconds} ms");
             }
         }

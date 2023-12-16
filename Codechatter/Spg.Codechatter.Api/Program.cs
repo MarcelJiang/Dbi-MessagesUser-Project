@@ -25,7 +25,6 @@ var configuration = builder.Configuration;
 
 builder.Services.AddDbContext<CodechatterContext>(ServiceLifetime.Singleton);
 
-// Register the seeder
 builder.Services.AddTransient<CodechatterContextSeeder>(_ =>
 {
     var context = _.GetRequiredService<CodechatterContext>();
@@ -203,12 +202,10 @@ app.UseHttpsRedirection();
 app.UseCors("allowedOrigins");
 app.MapControllers();
 
-// Use the created scope for seeding
 using (var scope = app.Services.CreateScope())
 {
     var seeder = scope.ServiceProvider.GetRequiredService<CodechatterContextSeeder>();
     
-    // Set the desired number of entries for seeding
     int chatroomCount = 1;
     int userCount = 1000;
     int textChannelCount = 1;
