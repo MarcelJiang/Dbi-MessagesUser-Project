@@ -59,6 +59,14 @@
               "target": "Package",
               "version": "[7.0.0-rc.1.22427.2, )"
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
@@ -186,6 +194,14 @@
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.7, )"
             },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.22.0, )"
@@ -293,6 +309,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -414,6 +442,18 @@
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.7, )"
             },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.22.0, )"
@@ -525,6 +565,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
